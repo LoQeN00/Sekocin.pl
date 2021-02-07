@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sekocin.pl</title>
+    {{>links}}
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <div class='container'>
+        {{>navigation}}
+
+        {{!-- MAIN SECTION --}}
+
+            <section class='offer'>
+                <div class='offer__wraper'>
+                    <div class='offer__image'>
+                        <img src="/images/home.png" alt="home">
+                    </div>
+                    <div class='offer__content'>
+                        <div class='content__pin'>
+                            <div class='content__wraper'>
+                                <div class='content__text'>
+                                    <p>Cena od</p>
+                                    <h1>50 zł</h1>
+                                    <p>/ miesiąc</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class='content__main'>
+                            <h1>SUPER SZYBKI DOSTĘP</h1>
+                            <h1>DO INTERNETU</h1>
+                            <h3>OD 10 MB/S DO 1&nbsp;GB/S</h3>
+                            <div id='buttons' class='content__buttons'>
+                                <a class='button-advantages' href="#advantages"><b>Nasze Zelety</b></a>
+                                <a class='button-range' href="#map"><b>Sprawdź&nbsp;zasięg!</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {{!-- DESCRIPTION SECTION --}}
+
+            <section class='description'>
+                <div class='description__wraper'>
+                    <div class='description__offer-box'>
+                        <div class='offer-box__item'>
+                            <img src="/images/1.png" alt="icon">
+                            <h6>DOSTĘP ŚWIATŁOWODOWY</h6>
+                            <p>Przyłączamy do naszej sieci światłowodowej oferując państwu super szybki Internet nawet do przepustowości 1 Gb/s.</p>
+                        </div>
+                        <div class='offer-box__item'>
+                            <img src="/images/2.png" alt="icon">
+                            <h6>INTERNET BEZPRZEWODOWY</h6>
+                            <p>Zapewniamy szerokopasmowy stały dostęp do Internetu w najnowszej technologii bezprzewodowej 5 Ghz. Stabilność naszych usług klasyfikuję się na poziomie 99.6%.</p>
+                        </div>
+                        <div class='offer-box__item'>
+                            <img src="/images/3.png" alt="icon">
+                            <h6>TELEFON VOIP</h6>
+                            <p>Oferujemy telefon w technologii VOIP. Wdrożenie tego rozwiązania znacznie obniży koszt połączeń telefonicznych w stosunku do innych operatorów.</p>
+                        </div>
+                    </div>
+                    
+                    <div id='animation-triger'></div>
+                    
+                    <div class='description__advantages' id="advantages">
+                        <div class='description__header'>
+                            <h5 id='phone-anim'>Zalety TIP &amp; MARTEL</h5>
+                            <p>Skorzystaj z naszych profesjonalnych i niedrogich rozwiązań.<br><b>Pozwól nam sprostać Twoim oczekiwaniom.</b></p>
+                        </div>
+                        <div class='advantages__box'>
+                            <div class='advantages__box__item'>
+                                <img src="/images/1s.png" alt="icon">
+                                <div class='item__desc'>
+                                    <h6>Redundantne łącza</h6>
+                                    <p>Posiadamy dwa niezależne połączenia BGP - światłowodowe i radiowe</p>
+                                </div>
+                            </div>
+                            <div class='advantages__box__item'>
+                                <img src="/images/4s.png" alt="icon">
+                                <div class='item__desc'>   
+                                     <h6>System&nbsp;UPS</h6>
+                                    <p>Wszystkie nasze nadajniki są wyposażone w zasilacze awaryjne pozwalające na wielogodzinną pracę bez dopływu prądu.</p>
+                                </div>
+                            </div>
+                            <div class='advantages__box__item'>
+                                <img src="/images/2s.png" alt="icon">
+                                <div class='item__desc'>
+                                     <h6>Niskie&nbsp;opóźnienia</h6>
+                                    <p>W szkielecie naszej sieci średnie opóźnienie to 0,56ms,</p>
+                                </div>
+                            </div>
+                            <div class='advantages__box__item'>
+                                <img src="/images/5s.png" alt="icon">
+                                <div class='item__desc'>
+                                    <h6>Pomoc techniczna</h6>
+                                    <p>Zapewniamy pełne wsparcie techniczne w godzinach 8:00 - 17:00. Zawsze chętnie Ci pomożemy!</p>
+                                </div>
+                            </div>
+                            <div class='advantages__box__item'>
+                                <img src="/images/3s.png" alt="icon">
+                                <div class='item__desc'>
+                                    <h6>Profesjonalizm</h6>
+                                    <p>Korzystamy tylko z profesjonalnych urządzeń firm Ubiquiti i MikroTik.</p>
+                                </div>
+                            </div>
+                            <div class='advantages__box__item'>
+                                <img src="/images/6s.png" alt="icon">
+                                <div class='item__desc'>
+                                    <h6>Telefon&nbsp;VOIP</h6>
+                                    <p>Oferujemy telefon w technologii VOIP. Wdrożenie tego rozwiązania może znacznie obniży koszt połączeń.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {{!-- AD SECTION --}}
+
+            <section id="ad" class='ad'>
+                <div class="ad__title">
+                    <h1>Szybki internet światłowodowy oraz bezprzewodowy&nbsp;-<br> Warszawa i okolice</h1>
+                </div>
+                <div class='ad__contentt'>
+                    <div class='ad__text'>
+                        <h5>Specjalna oferta dla osiedli</h5>
+                        <h2><b> od <span class="span-color-blue">100 Mb/s</span> do <span class="span-color-blue">1 Gb/s</b></span> </h2>
+                        <h5>w dostępie światłowodowym!</h5>
+                    </div>
+                    <div class="ad__button">
+                        <a href="/internet/oferta-swiatlowodowa" class='ad__button-more'>Zobacz&nbsp;wiecej</a>
+                    </div>
+                </div> 
+            </section>
+
+            {{!-- SHOP CARDS SECTION --}}
+
+            <section id='cards' class='cards'>
+                <div class="cards__title">
+                    <h2>Nasze usługi</h2>
+                </div>
+                <div class="cards__holder">
+                    {{!-- <div class='box-title green'>
+                        <h1>Internet radiowy</h1>
+                    </div>
+                    <div class="text2">
+                        <div class="text-content">
+                            <h1 class="title">Najlepsza oferta</h1>
+                            <div class="body-text">
+                               
+                            <div class="text-content__button">
+                                <a href="#" class="text-content__btn green">Zobacz więcej!</a>
+                            </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
+                </div> --}}
+
+                <div class="card">
+                <div class='box-title green'>
+                    <h1>Internet radiowy</h1>
+                </div>
+                <div class="text2">
+                    <div class="text-content">
+                    <h1 class="title">Najlepsza oferta</h1>
+                    <div class="body-text">
+                         <ul class='body-text-list'>
+                                <li class="list-title"><b>Ultra</b></li>
+                                <li>Pobieranie: <b>20</b> mb/s</li>
+                                <li>Wysyłanie: <b>2</b> mb/s</li>
+                                <li>Transfer: <b>Bez limitu</b></li>
+                        <div class="text-content__button">
+                            <a href="/internet/oferta-radiowa" class="text-content__btn green">Zobacz więcej!</a>
+                        </div>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
+                </div>
+
+                <div class="card">
+                <div class='box-title yellow'>
+                    <h1>Internet światłowodowy</h1>
+                </div>
+                <div class="text2">
+                    <div class="text-content">
+                    <h1 class="title">Najlepsza oferta</h1>
+                    <div class="body-text">
+                        <ul class='body-text-list '>
+                        <li class="list-title"><b>Premium</b></li>
+                        <li>Pobieranie: <b>1000</b> mb/s</li>
+                        <li>Wysyłanie: <b>200</b> mb/s</li>
+                        <li>Transfer: <b>Bez limitu</b></li>
+                        <div class="text-content__button">
+                            <a href="/internet/oferta-swiatlowodowa" class="text-content__btn yellow">Zobacz więcej!</a>
+                        </div>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
+                </div>
+                
+                <div class="card">
+                    <div class='box-title blue'>
+                        <h1>Telewizja</h1>
+                    </div>
+                    <div class="text2">
+                    <div class="text-content">
+                        <h1 class="title">Najlepsza oferta</h1>
+                        <div class="body-text">
+                            <ul class='body-text-list '>
+                                <li class="list-title"><b>PLATINUM</b></li>
+                                <li>Ilość kanałów: <b>230</b></li>
+                                <li>Kanały HD: <b>139</b></li>
+                                <li>Pakiety premium!</li>
+                                <div class="text-content__button">
+                                <a href="/telewizja" class="text-content__btn blue">Zobacz więcej!</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
+                </div>
+                </div>
+            </section>
+
+            {{!-- TRY FREE SECTION --}}
+
+            <section id='try-free' class='try-free'>
+                <div class='try-free__title'>
+                    <h2>Masz 14 dni na wypróbowanie!</h2>
+                    <p>Oferujemy również łącza dla <b>klientów biznesowych</b> ceniących sobie szybkość i stabilność, zapoznaj się z nasza pełną ofertą.</p>
+                </div>
+            </section>
+
+            {{!-- PROMOTION SECTION --}}
+
+            <section id="promotion" class='promotion'>
+                <div class='promotion__title'>
+                    <h1>PROMOCJA</h1>
+                    <hr>
+                    <p>Abonenci, którzy wprowadzą nowego klienta do naszej sieci otrzymają wyższy pakiet usług od posiadanego lub darmowy abonament na okres 1 miesiąca za każdego zgłoszonego klienta.</p>
+                    <h2>Miesiąc GRATIS!</h2>
+                </div>
+            </section>
+
+            {{!-- RANGE MAP SECTION --}}
+
+            <section class='range-map'>
+                <div class='range-map__title'>
+                    <h2>Mapa zasięgu</h2>
+                     <div id='map' class="range-map__map">
+                        
+                    </div>
+                    <div class="range-map__text">
+                        <p><i>Granica zasięgu sieci jest przybliżona.</i> Pomiar siły sygnału w domu klienta <b>BEZPLATNIE</b>.</p>
+                        <p>Wszystkich zainteresowanych będących w zaznaczonym obszarze lub w jego pobliżu proszeni są o kontakt.</p>
+                        <h3><a href="/internet/zasieg-internet">ZOBACZ NASZE LOKALIZACJE NADAJNIKÓW</a></h3>
+                    </div>
+                </div>
+                
+            </section>
+        {{>footer}}
+    </div>
+    <script src="/js/navbarHandle.js"></script>
+    <script src="/js/mapHandle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="/js/homeAnimations.js"></script>
+</body>
+</html>

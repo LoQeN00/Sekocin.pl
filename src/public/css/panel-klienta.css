@@ -1,0 +1,142 @@
+.container {
+    max-width: 100vw;
+}
+
+.header {
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.header__text {
+    padding: 20px 0 70px;
+}
+
+.header__text h2 {
+    font-size: 3rem;
+}
+
+.header__forms {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms__form {
+    padding: 100px 30px 30px 30px;
+    margin: 15px;
+    background-color: rgb(245,245,245);
+    position: relative;
+}
+
+.martel__form {
+    -webkit-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+.tip__form {
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+.form__text {
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    max-width: 600px;
+    text-align: center;
+}
+.form__inputs {
+    display: flex; flex-direction: column;
+    padding-top: 30px;
+}
+
+.form__inputs input {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.forgot__password__link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.green-bold {
+    font-weight: 700;
+    color: green;
+}
+
+.forgot__password__link:hover {
+    color: green;
+}
+
+.form__title {
+    font-size: 34px;
+    padding: 10px;
+}
+
+.form__text {
+    font-size: 18px;
+}
+
+.submit__btn {
+    padding: 10px 0;
+    font-size: 18px;
+    background-color: rgb(46, 158, 31);
+    border: none;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.submit__btn:hover {
+    background-color: rgb(16, 128, 1);
+}
+
+.form__img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px 15px;
+}
+
+.form__img img {
+    border-radius: 50%;
+}
+
+.form__text a {
+    padding: 20px 0 0;
+    font-size: 2rem;
+    color: black;
+    transition: color 0.4s ease;
+}
+
+.form__text a:hover{
+    color: rgb(37, 135, 180);
+}
+
+
+@media (max-width: 1000px) {
+
+    .header__forms {
+        flex-direction: column;
+    }
+    .martel__form {
+        margin-bottom: 70px;
+    }
+}
+
+

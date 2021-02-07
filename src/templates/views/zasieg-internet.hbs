@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Światłowód Łazy, Światłowód {{replacer town}}" />
+    {{>links}}
+    <title>Zasięg internetu</title>
+    <link rel="stylesheet" href="/css/zasieg-internet.css">
+</head>
+<body>
+    <div class='container'>
+        {{>navigation}}
+        <section class='header'>
+
+            <div class='header__text'>  
+                 <h1>Zasięg Internetu {{replacer town}} </h1>
+                <p>Pomiar siły sygnału w domu klienta BEZPLATNIE.</p>
+            </div>
+            <div id='map' class='header__map'></div>
+            </section>
+        <div class='header__text-under-map'>
+            <p class='header__p'><b>Granica zasięgu sieci jest przybliżona. Wszystkich zainteresowanych będących w zaznaczonym obszarze lub w jego pobliżu proszeni są o kontakt.</b></p>
+        </div>
+        <section class='spaces'>
+            <h2>Działamy na terenie: </h2>
+            <div class='spaces__text'>
+                {{#each townList}}
+                    <a href="/internet/zasieg-internet/{{this}}"><i class="fas fa-check-circle"></i>{{replacer this}}</a>
+                {{/each}}
+            </div>
+        </section>
+        {{>footer}}
+    </div>
+    <script src="/js/navbarHandle.js"></script>
+    <script src="/js/mapHandle.js"></script>
+</body>
+</html>

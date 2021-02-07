@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta światłowodowa</title>
+    {{>links}}
+    <link rel="stylesheet" href="/css/oferta-swiatlowodowa.css">
+</head>
+<body>
+    <div class="container">
+        {{>navigation}}
+        <section class='header'>
+            <div class="header__text">
+                <h1>Oferta światłowodowa</h1>
+                <p>Umowa zawierana jest na czas nieokreślony z możliwością czasowego zawieszenia świadczenia usługi (min 1 mieś).</p>
+            </div>
+        </section>
+        <section class="offer">
+            <div class='offer__header'>
+                <h2>Przyłacze światłowodem FFTH</h2>
+            </div>
+            <div id='offer-boxes' class='offer__boxes'>
+                <div data-box class='offer__box'>
+                    <div class='box__title'>
+                        <h3>Lekki</h3>
+                    </div>
+                    <div class='box__cost'>
+                        <h3><span class='bigger-font'>59 PLN /</span><span class='smaller-font'>miesięcznie</span></h3>
+                    </div>
+                    <div class='box__overall'>
+                        <h3>Pobieranie: <span class='item-gold'>100 Mb/s</span></h3>
+                        <h3>Wysyłanie: <span class='item-gold'>100 Mb/s</span></h3>
+                        <h3>Transfer: <span class='item-gold'>bez limitu</span></h3>
+                        <h3>Telefon: <span class='item-gold'>TAK (VOIP)</span></h3>
+                    </div>
+                    <div class='box__button'>
+                        <a href="/kontakt">Zamów</a>
+                    </div>
+                </div>
+                 <div data-box class='offer__box'>
+                    <div class='box__title'>
+                        <h3>Standard</h3>
+                    </div>
+                     <div class='box__cost'>
+                         <h3><span class='bigger-font'>70 PLN /</span><span class='smaller-font'>miesięcznie</span></h3>
+                    </div>
+                     <div class='box__overall'>
+                         <h3>Pobieranie: <span class='item-gold'>200 Mb/s</span></h3>
+                         <h3>Wysyłanie: <span class='item-gold'>100 Mb/s</span></h3>
+                         <h3>Transfer: <span class='item-gold'>bez limitu</span></h3>
+                         <h3>Telefon: <span class='item-gold'>TAK (VOIP)</span></h3>
+                    </div>
+                    <div class='box__button'>
+                        <a href="/kontakt">Zamów</a>
+                    </div>
+                </div>
+                 <div data-box class='offer__box'>
+                    <div class='box__title'>
+                        <h3>Ultra</h3>
+                    </div>
+                     <div class='box__cost'>
+                         <h3><span class='bigger-font'>100 PLN /</span><span class='smaller-font'>miesięcznie</span></h3>
+                    </div>
+                     <div class='box__overall'>
+                         <h3>Pobieranie: <span class='item-gold'>500 Mb/s</span></h3>
+                         <h3>Wysyłanie: <span class='item-gold'>100 Mb/s</span></h3>
+                         <h3>Transfer: <span class='item-gold'>bez limitu</span></h3>
+                         <h3>Telefon: <span class='item-gold'>TAK (VOIP)</span></h3>
+                    </div>
+                    <div class='box__button'>
+                        <a href="/kontakt">Zamów</a>
+                    </div>
+                </div>
+                 <div data-box class='offer__box'>
+                    <div class='box__title'>
+                        <h3>Premium</h3>
+                    </div>
+                     <div class='box__cost'>
+                         <h3><span class='bigger-font'>200 PLN /</span><span class='smaller-font'>miesięcznie</span></h3>
+                    </div>
+                     <div class='box__overall'>
+                         <h3>Pobieranie: <span class='item-gold'>1000 Mb/s</span></h3>
+                         <h3>Wysyłanie: <span class='item-gold'>200 Mb/s</span></h3>
+                         <h3>Transfer: <span class='item-gold'>bez limitu</span></h3>
+                         <h3>Telefon: <span class='item-gold'>TAK (VOIP)</span></h3>
+                    </div>
+                    <div class='box__button'>
+                        <a href="/kontakt">Zamów</a>
+                    </div>
+                </div>
+            </div>
+            <h3 id='offer-text' class='offer__text'>Podane ceny są cenami brutto (zawierają VAT 23%). Wystawiamy faktury VAT upoważniające do odliczenia kosztów dostępu do sieci od podatku.</h3>
+        </section>
+        <section class='costs'>
+            <h2><i class="fas fa-coins"></i> Koszty instalacji</h2>
+            <p>Jednorazowy koszt instalacji 300zł. Cena instalacji może ulec zmianie w przypadku niekorzystnych warunków technicznych.</p>                                    
+        </section>
+        {{>footer}}
+    </div>
+    <script src="/js/navbarHandle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="/js/opticalFiberOffer.js"></script>
+</body>
+</html>

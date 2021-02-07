@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test szybkości łącza</title>
+    {{>links}}
+    <link rel="stylesheet" href="/css/test-szybkosci-lacza.css">
+</head>
+<body>
+    <div class="container">
+        {{>navigation}}
+        <section class='header'>
+            <div class='header__text'>
+                 <h1>Test szybkości łącza</h1>
+                 <p>Firma Sękocin.pl TIP &amp; Martel udostępniła dla wszystkich
+                  użytkowników globalnej sieci test umożliwiający określenie aktualnej
+                  szybkości połączenia z naszym serwerem.</p>
+            </div>
+            <div class='header__content'>
+                <div class='content__link'>
+                    <a target="_blank" href="http://sekocin.speedtestcustom.com/"> <i class="fas fa-tachometer-alt"></i></a>
+                    <h2>Kliknij mnie aby sprawdzić szybkość łącza</h2>
+                </div>
+                
+            </div>
+           
+        </section>
+        {{>footer}}
+    </div>
+    <script src="/js/navbarHandle.js"></script>
+   
+</body>
+</html>

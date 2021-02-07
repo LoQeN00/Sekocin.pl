@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>links}}
+    <link rel="stylesheet" href="/css/o-nas.css">
+    <title>O nas</title>
+</head>
+<body>
+
+    <div class='container'>
+        {{>navigation}}
+        <section class='header'>
+            <div class='header__text'>
+                <h1>SEKOCIN.pl - TIP &amp; MARTEL</h1>
+                <h3>To dwie niezależne firmy tworzące markę sekocin.pl - lokalnego providera dostępu do intertnetu</h3>
+            </div>
+        </section>
+        <section class='about-us'>
+            <div class='about-us__text'>
+                <h2>O Nas</h2>
+                <h3>Świadczymy usługi dostępu do internetu oraz telefoni VoIP drogą radiową w oparciu o częstotliwości 5GHz</h3>
+            </div>
+            <div id='about-us' class='about-us__content'>
+                <div class='about-us__img'>
+                    <img src="/images/slider-image-15.png" alt="icon">
+                </div>
+                <div class='about-us__content__text'>
+                    <h3>ISP - Internet Service Provider</h3>
+                    <p>Nasza sieć szkieletowa oparta jest na profesjonalnym sprzęcie operatorskim renomowanych firm,
+                    posiadającym aktualne dopuszczenia i spełniającym wszystkie wymogi prawne obowiązujące w Polsce i UE.
+                    Obecnie firma nasza dysponuje siecią szkieletową zbudowaną w oparciu o profesjonalne urządzenia światłowodowe i radiowe</p>
+                    <h3>Nasze specjalizacje:</h3>
+                    <p><span><i class="fas fa-check-circle"></i></span> Stałe łącza Internetowe</p>
+                    <p><span><i class="fas fa-check-circle"></i></span> Telewizja internetowa</p>
+                    <p><span><i class="fas fa-check-circle"></i></span> Telofonia VoIP</p>
+                    <p><span><i class="fas fa-check-circle"></i></span> Kompleksowy outsourcing usług informatycznych</p>
+                    <p><span><i class="fas fa-check-circle"></i></span> Administracja serwerami oraz sieciami informatycznym</p>
+                </div>
+            </div>
+        </section>
+        <section id="ad" class='ad'>
+            <div class='ad__text'>
+                <h3>Jesteśmy zgłoszeni do UKE do rejestru ewidencji przedsiębiorstw telekomunikacyjnych. Numer z rejestru 7933.</h3>
+            </div>
+        </section>
+        {{!-- <section class='crew'>
+            <h2 class='crew__header'>Nasza załoga</h2>
+            <div class='crew__content'>
+                <div class='crew__img'>
+                    <img src="/images/icon-97.png" alt="icon">
+                </div>
+                <div class='crew__text'>
+                    <p>Nasz zespół posiada doświadczenie przy wdrożeniach prostych systemów w małych firmach,
+                    jak i zaawansowanych rozwiązań informatycznych w średnich i dużych przedsiębiorstwach.
+                    Naszym celem jest dostarczanie indywidualnie dopasowanych rozwiązań w technologii informatycznej,
+                    wspomagającej procesy biznesowe.</p>
+                </div>
+            </div>
+            
+        </section> --}}
+        {{>footer}}
+    </div>
+    <script src="/js/navbarHandle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="/js/aboutUsAnimations.js"></script>
+   
+</body>
+</html>

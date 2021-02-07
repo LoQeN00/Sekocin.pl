@@ -1,0 +1,253 @@
+.container {
+    max-width: 100vw;
+}
+
+.header {
+    width: 100%;
+    /* margin-top: 70px; */
+    padding: 20px;
+    display: flex; justify-content: center; align-items: center;
+    color: black;
+    font-size: 30px;
+}
+
+.header__text {
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    max-width: 700px;
+}
+
+.header__text h1 {
+    padding: 20px 0;
+}
+.header__text p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.offer {
+    width: 100%;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
+
+.offer__header {
+    background-color:rgb(212,175,55);
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    width: 100%;
+    margin: 20px 0 50px;
+    padding: 30px;
+}
+
+.offer__header h2 {
+    font-size: 32px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.offer p {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.offer__boxes {
+    display: flex; justify-content: center; align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+}
+
+.offer__box {
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    flex-basis: 410px;
+}
+
+.box__title {
+    background-color:rgb(212,175,55);
+    display: flex; justify-content: center; align-items: center;
+    color: white;
+    padding: 40px;
+    position: relative;
+}
+
+.box__title h3 {
+    font-size: 3rem;
+}
+
+.box__cost {
+    padding: 8px 0;
+}
+
+.box__cost h3 {
+    text-align: center;
+}
+
+
+
+.box__cost::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px auto 10px auto;
+}
+
+.smaller-font {
+    font-size: 2rem;
+    color: rgb(212,175,55);
+}
+
+.item-gold {
+    color: rgb(212,175,55);
+    font-size: 1.5rem;
+}
+
+.bigger-font {
+    font-size: 3rem;
+    color: rgb(212,175,55);
+}
+
+.box__overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.box__overall h3 {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.box__button {
+    display:flex; justify-content: center; align-items: center;
+    padding: 30px;
+}
+
+.box__button a {
+    text-decoration: none;
+    color: rgb(212,175,55);
+    display: block;
+    font-size: 2rem;
+    border: 2px solid rgb(212,175,55);
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease all;
+}
+
+.box__button a:hover {
+    background-color: rgb(212,175,55);
+    color: white;
+}
+
+.offer__text {
+    font-size: 20px;
+    max-width: 900px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+
+.costs {
+    width: 100%;
+    background-color:rgb(212,175,55);
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.costs h2 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.costs p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.costs i {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 415px) {
+    .header__text h1 {
+        font-size: 1.5rem;
+    }
+
+    .header__text p {
+        font-size: 1rem;
+    }
+    .offer__header {
+        padding: 30px 20px;
+    }
+
+    .offer__header h2 {
+        font-size: 1.4rem;
+    }
+
+    .box__title h3 {
+        font-size: 2rem;
+    }
+
+    .bigger-font {
+        font-size: 2rem;
+    }
+
+    .smaller-font {
+        font-size: 1rem;
+    }
+
+    .box__cost::after {
+        width: 50%;
+    }
+
+    .box__overall h3 {
+        font-size: 1rem;
+    }
+
+    .item-gold {
+        font-size: 1.2rem;
+    }
+
+    .box__button a {
+        font-size: 1rem;
+    }
+
+    .offer__text {
+        font-size: .9rem;
+        padding: 20px
+    }
+    .costs {
+        padding: 20px;
+    }
+    .costs h2 {
+        font-size: 1.8rem;
+    }
+
+    .costs p {
+        font-size: .9rem;
+    }
+
+
+
+
+
+
+
+
+
+
+}

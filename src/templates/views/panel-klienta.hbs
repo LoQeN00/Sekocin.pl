@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Klienta</title>
+    {{>links}}
+    <link rel="stylesheet" href="/css/panel-klienta.css">
+</head>
+<body>
+    <div class="container">
+        {{>navigation}}
+        <section class="header">
+            <div class="header__text">
+                <h2>Panel klienta</h2>
+            </div>
+            <div class='header__forms'>
+                <div class='forms__form martel__form'>
+                    <div class='form__img'>
+                        <img src="/images/icon-118.png" alt="icon">
+                    </div>
+                    <div class='form__text'>
+                        <h2 class='form__title'>Martel</h2>
+                        <p>Numer ID i PIN jest nadawany podczas instalacji oraz widnieje na każdej fakturze. Kliknij w poniżej, żeby przejść do logowania.</p>
+                        <a href="http://bok.sekocin.pl/" target="_blank"><b>Przejdź</b></a>
+                    </div>
+                </div>
+                <div class='forms__form tip__form'>
+                    <div class='form__img'>
+                        <img src="/images/icon-118.png" alt="icon">
+                    </div>
+                    <div class='form__text'>
+                        <h2 class='form__title'>TIP</h2>
+                        <p>Numer ID i PIN jest nadawany podczas instalacji oraz widnieje na każdej fakturze. Kliknij w poniżej, żeby przejść do logowania.</p>
+                        <a href="http://bok-tip.sekocin.pl/" target="_blank"><b>Przejdź</b></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        {{>footer}}
+    </div>
+   <script src="/js/navbarHandle.js"></script>
+</body>
+</html>
